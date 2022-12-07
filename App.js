@@ -131,12 +131,12 @@ const App = () => {
                                     />
                                     <TextField
                                         className={classes.textField}
-                                        name='nullifier'
+                                        name='proof'
                                         onChange={(e) => setProof(e.target.value)}
                                         variant="outlined"
                                         required
                                         fullWidth
-                                        label='nullifierHash'
+                                        label='proof'
                                         autoFocus
                                         type='text'
                                     />
